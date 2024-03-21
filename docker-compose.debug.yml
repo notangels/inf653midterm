@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  phprest:
+    image: phprest
+    build:
+      context: .
+      dockerfile: ./Dockerfile
